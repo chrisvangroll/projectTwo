@@ -3,6 +3,7 @@ body{
 	font-family: 'Raleway', sans-serif;
     margin-top: 0px;
     font-size: 1em;
+    font-weight: 700;
 }
 h3{
     font-size: 14px;
@@ -60,7 +61,7 @@ h3{
 #signUp{
     color: #006ed0;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 900;
     margin-right: .5em;
     order: 3;
     padding-top: 1em;
@@ -319,6 +320,11 @@ border-width: .05em;
 
 }
 
+#mostPop{
+    margin-top: 14px;
+    margin-left: 2%;
+}
+
 .fas.fa-chart-line{
     align-self: flex-end;
     margin-right: .7em;
@@ -331,25 +337,26 @@ border-width: .05em;
 .hotelInfo{
     text-align: left;
     width: 49%;
-    /* font-size: 12px; */
+   
     padding: 8px
     
 }
 
 .hotelName{
-    /* font-size: 1.3vw; */
+   
     font-weight: bold;
     font-size: 14px;
-    /* margin-bottom: .4em; */
+    
    
 
 }
 
 .nightStarting{
-    /* font-size: 1vw; */
+    
     font-weight: 100;
     color: gray;
     font-size: 12px;
+    font-weight: 700;
 }
 
 .stars{
@@ -442,16 +449,7 @@ border-width: .05em;
     width: 100%;
     padding: 7px;
 }
-/* 
-.hotelNameAccom{
-    font-weight: bold;
-    font-size: 12px;
-}
-.nightStartAccom{
-    font-size: 10px;
-    color: gray;
 
-} */ 
 
 #showMore{
     font-size: calc(.8em + .5vw);
@@ -525,9 +523,24 @@ border-width: .05em;
     
 }
 footer{
-    background-color: gray;
+    background-color:  rgba(203, 208, 212, 0.65);
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+.footerPart{
+    margin-right: 100px;
+    margin-left: 20px;
+    font-size: 12px;
 
 }
+
+.boldElement{
+    font-weight: 900;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+
 
 
 
@@ -616,6 +629,10 @@ footer{
 /*Most Popular Cards-mobile*/
 #mostPopular{
     width: 100%;
+}
+
+#mostPop{
+    margin-top: 25px;
 }
  #mostPopHeader{
     font-size: calc(1.3em + 1.3vw);
@@ -708,6 +725,22 @@ h3{
 #photoSix{
     height: 205px;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.footerPart{
+    margin-right: 100px;
+    margin-left: 27px;
+    font-size: 14px;
+
+}
+
+.boldElement{
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
 
 }
 @media (max-width: 940px) and (min-width: 689px){
@@ -790,6 +823,18 @@ h3{
 #photoSix{
         height: 89px;
     }
+.footerPart{
+    margin-right: 100px;
+    margin-left: 20px;
+    font-size: 9px;
+    
+}
+
+.boldElement{
+    font-weight: 900;
+    font-size: 11px;
+    margin-bottom: 12px;
+}
 }
 
 

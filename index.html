@@ -9,9 +9,10 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="https://kit.fontawesome.com/2b5f9029cc.js" crossorigin="anonymous"></script>
    
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;0,800;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;0,800;1,600;1,700;1,800&display=swap" rel="stylesheet"> -->
 </head>
 <body>
     <div class="container">
@@ -19,20 +20,20 @@
          <div id="logoDiv">
             <img id="logo" src="images/logo/Reservia.svg" alt="Reservia">
         </div>
-        <div id="acomDiv">
+        <nav id="acomDiv">
 			<a id="accomodationsBar" href="">Accomodations</a>
-        </div>
-        <div id="actDiv">
+        </nav>
+        <nav id="actDiv">
 			<a  id="activitiesBar" href="">Activities</a>
-        </div>
-        <div id="signUpDiv">
+        </nav>
+        <nav id="signUpDiv">
             <a  id="signUp"href="">Sign Up</a>
-        </div>
+        </nav>
             
        
         <!--Search-->
         <div id="search">
-            <p id="searchOne">Find a place for your dream vacation</p>
+            <h1 id="searchOne">Find a place for your dream vacation</h1>
             <p id="searchTwo">Downtown or in nature</p>
             <div class="searchcontainer">
                 <i class="fas fa-map-marker-alt"></i>
@@ -73,10 +74,10 @@
         </div>
         <!--flex container-->
         <div class="flexcontainer">
-            <div id="accomodations">
+            <section id="accomodations">
                 
                 <div id="accomContainer">
-                    <p id="accomHeader">Accomodations in Marseille</p>
+                    <h2 id="accomHeader">Accomodations in Marseille</h2>
                     <div class="accomCard">
                         <div class="divPhotoAccom">
                             <img class="accomPhotos" src="images\hebergements\3_medium\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebiere">
@@ -191,11 +192,11 @@
                 </div>
                 
                 
-            </div>
+            </section>
         
-            <div id="mostPopular">
+            <section id="mostPopular">
                 <div id="mostPopHeader">
-                    <p>Most Popular</p>
+                    <div id="mostPop">Most Popular</div>
                     <i class="fas fa-chart-line"></i>
                 </div> 
                 <div class="mostPopularCards">
@@ -252,7 +253,7 @@
                         </div>
                     </div>      
                 </div>       
-            </div>    
+            </section>    
         </div>   
         <!--Activities-->
         <section id="activities">
@@ -296,11 +297,26 @@
                 </div>
 
             </div>
-        </div>
+        </section>
 
         
-        <footer id="footer">
-            Footer
+        <footer> 
+            <div class="footerPart">
+                <p class="boldElement">About</p>
+                <p>Site Map</p>
+                <p>General Terms and Conditions</p>
+                <p>Data and Privacy</p>
+            </div>
+            <div class="footerPart">
+                <p class="boldElement">Our Accommodations</p>
+                <p>Quality Assessment</p>
+                <p>You have a hotel?</p>
+            </div>
+            <div class="footerPart">
+                <p class= "boldElement">Assistance</p>
+                <p>Help Desk</p>
+                <p>Contact Us</p>
+            </div>
         </footer>
     </div>
 </body>
