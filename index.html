@@ -1,18 +1,17 @@
+<!-- during validation -->
 <!DOCTYPE html>
-<!-- off -->
+
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Reservia</title>
-	<!--<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> -->
+
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="https://kit.fontawesome.com/2b5f9029cc.js" crossorigin="anonymous"></script>
    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;0,800;1,600;1,700;1,800&display=swap" rel="stylesheet"> -->
+   
 </head>
 <body>
     <div class="container">
@@ -21,18 +20,18 @@
             <img id="logo" src="images/logo/Reservia.svg" alt="Reservia">
         </div>
         <nav id="acomDiv">
-			<a id="accomodationsBar" href="">Accomodations</a>
+			<a id="accomodationsBar" href="#accomodations">Accomodations</a>
         </nav>
         <nav id="actDiv">
-			<a  id="activitiesBar" href="">Activities</a>
+			<a  id="activitiesBar" href="#activities">Activities</a>
         </nav>
         <nav id="signUpDiv">
-            <a  id="signUp"href="">Sign Up</a>
+            <a  id="signUp" href="">Sign Up</a>
         </nav>
             
        
         <!--Search-->
-        <div id="search">
+        <div>
             <h1 id="searchOne">Find a place for your dream vacation</h1>
             <p id="searchTwo">Downtown or in nature</p>
             <div class="searchcontainer">
@@ -48,19 +47,19 @@
             
             <div id="filterContainer">
                 <p id="filterlabel">Filters</p>
-                <div id="firstButton">
+                <div id="firstButton" class="hoverButton">
                         <i class="fas fa-money-bill-wave"></i>
                         <p id="lowCost">Low cost</p>
                 </div>
-                <div id="secondButton">
+                <div id="secondButton" class="hoverButton">
                     <i class="fas fa-child"></i>
                     <p id="familyFriendly">Family-friendly</p>
                 </div>
-                <div id="thirdButton">
+                <div id="thirdButton" class="hoverButton">
                     <i class="fas fa-heart"></i> 
                     <p id="romantic">Romantic</p>
                  </div>
-                 <div id="fourthButton">
+                 <div id="fourthButton" class="hoverButton">
                      <i class="fas fa-dog"></i> 
                      <p id="petsAllowed">Pets Allowed</p>
                  </div>   
@@ -78,9 +77,9 @@
                 
                 <div id="accomContainer">
                     <h2 id="accomHeader">Accomodations in Marseille</h2>
-                    <div class="accomCard">
+                    <a href="" class="accomCard">
                         <div class="divPhotoAccom">
-                            <img class="accomPhotos" src="images\hebergements\3_medium\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebiere">
+                            <img class="accomPhotos" src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebiere">
                         </div>
                         <div class="hotelInfoAccom">
                             <p class="hotelName">Auberge la Cannebière</p>
@@ -95,10 +94,10 @@
                                 <i class="fas fa-star gray"></i>
                             </div>
                         </div>         
-                    </div>
-                    <div class="accomCard">
+                    </a>
+                    <a href="" class="accomCard">
                         <div class="divPhotoAccom">
-                            <img class="accomPhotos" src="images\hebergements\3_medium\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Auberge La Cannebiere">
+                            <img class="accomPhotos" src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Auberge La Cannebiere">
                         </div>
                         <div class="hotelInfoAccom">
                             <p class="hotelName">Hôtel du Port</p>
@@ -113,10 +112,10 @@
                                 <i class="fas fa-star blue"></i>
                             </div>
                         </div>      
-                    </div>
-                    <div class="accomCard">
+                    </a>
+                    <a href="" class="accomCard">
                         <div class="divPhotoAccom">
-                            <img class="accomPhotos" src="images\hebergements\3_medium\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Auberge La Cannebiere">
+                            <img class="accomPhotos" src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Auberge La Cannebiere">
                         </div>
                         <div class="hotelInfoAccom">
                             <p class="hotelName">Les mouettes Hotel</p>
@@ -131,10 +130,10 @@
                                 <i class="fas fa-star gray"></i>
                             </div>
                         </div>                             
-                    </div>
-                    <div class="accomCard">                    
+                    </a>
+                    <a href="" class="accomCard">                    
                         <div class="divPhotoAccom">
-                            <img class="accomPhotos" src="images\hebergements\3_medium\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Auberge La Cannebiere">
+                            <img class="accomPhotos" src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Auberge La Cannebiere">
                         </div>
                         <div class="hotelInfoAccom">
                             <p class="hotelName">Hôtel de la mer</p>
@@ -149,10 +148,10 @@
                                 <i class="fas fa-star gray"></i>
                             </div>
                         </div>                              
-                    </div>
-                    <div class="accomCard">                    
+                    </a>
+                    <a href="" class="accomCard">                    
                         <div class="divPhotoAccom">
-                            <img class="accomPhotos" src="images\hebergements\3_medium\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge La Cannebiere">
+                            <img class="accomPhotos" src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge La Cannebiere">
                         </div>
                         <div class="hotelInfoAccom">
                             <p class="hotelName">Auberge Le Panier</p>
@@ -167,10 +166,10 @@
                                 <i class="fas fa-star gray"></i>
                             </div>
                         </div>                              
-                    </div>
-                    <div class="accomCard">                   
+                    </a>
+                    <a href="" class="accomCard">                   
                         <div class="divPhotoAccom">
-                            <img class="accomPhotos" src="images\hebergements\3_medium\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Auberge La Cannebiere">
+                            <img class="accomPhotos" src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Auberge La Cannebiere">
                         </div>
                         <div class="hotelInfoAccom">
                             <p class="hotelName">Hôtel chez Amina</p>
@@ -185,7 +184,7 @@
                                 <i class="fas fa-star blue"></i>
                             </div>
                         </div>                          
-                    </div>
+                    </a>
                     <p id="showMore">Show More</p>
                     <p class=emptyP></p>
                     <p class=emptyP></p>
@@ -199,9 +198,9 @@
                     <div id="mostPop">Most Popular</div>
                     <i class="fas fa-chart-line"></i>
                 </div> 
-                <div class="mostPopularCards">
+                <a href="" class="mostPopularCards">
                     <div class="divPhoto">
-                        <img class="mostPopularPhotos" src="images\hebergements\3_medium\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Morning Sun Hotel" width="18%" height="18%">
+                        <img class="mostPopularPhotos" src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Morning Sun Hotel">
                     </div> 
                     <div class="hotelInfo">   
                         <p class="hotelName">Morning Sun Hotel</p>
@@ -216,10 +215,10 @@
                             <i class="fas fa-star blue"></i>
                         </div>
                     </div>         
-                </div>   
-                <div class="mostPopularCards">
+                </a>   
+                <a href="" class="mostPopularCards">
                     <div class="divPhoto">
-                        <img class="mostPopularPhotos" src="images\hebergements\3_medium\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Morning Sun Hotel" width="18%" height="18%">
+                        <img class="mostPopularPhotos" src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Morning Sun Hotel">
                     </div> 
                     <div class="hotelInfo">   
                         <p class="hotelName">Au Cœur de' l'eau Bed and Breakfast</p>
@@ -234,10 +233,10 @@
                             <i class="fas fa-star gray"></i>
                         </div>
                     </div>     
-                </div> 
-                <div class="mostPopularCards">
+                </a> 
+                <a href="" class="mostPopularCards">
                     <div class="divPhoto">
-                        <img class="mostPopularPhotos" src="images\hebergements\3_medium\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Morning Sun Hotel" width="18%" height="18%">
+                        <img class="mostPopularPhotos" src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Morning Sun Hotel">
                     </div>
                     <div class="hotelInfo">   
                         <p class="hotelName">Tout bleu et Blanc Hotel</p>
@@ -252,49 +251,49 @@
                             <i class="fas fa-star gray"></i>
                         </div>
                     </div>      
-                </div>       
+                </a>       
             </section>    
         </div>   
         <!--Activities-->
         <section id="activities">
             <h2 id="actHeader">Activities in Marseille</h2>
             <div id="actContainer">             
-                <div class="actCard">
+                <a href="" class="actCard">
                     <img class="photoTall" src= "images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Old Port">
                     <div class="act">
                         <h3>Old Port</h3>
                     </div>
-                </div>
-                <div class="actCard">
+                </a>
+                <a href="" class="actCard">
                     <img id="photoTwo" src ="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Pomègues Fort">
                     <div class="act">
                         <h3>Pomègues Fort</h3>
                     </div> 
-                </div>
-                <div class="actCard">
+                </a>
+                <a href="" class="actCard">
                     <img id="photoThree" src= "images\activites\3_medium\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Frioul Island">
                     <div class="act">
                         <h3>Frioul Island</h3>
                     </div> 
-                </div>
-                <div class="actCard">
+                </a>
+                <a href="" class="actCard">
                     <img class="photoFour" src="images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Calanques National Park">
                     <div class="act">
                         <h3>Calanques National Park</h3>
                     </div> 
-                </div>
-                <div class="actCard">
+                </a>
+                <a href="" class="actCard">
                     <img id="photoFive" src="images\activites\3_medium\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
                     <div class="act">
                         <h3>Notre-Dame-de-la-Garde</h3>
                     </div> 
-                </div>
-                <div class="actCard">
+                </a>
+                <a href="" class="actCard">
                     <img id="photoSix" src="images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Longchamp Park">
                     <div class="act">
                         <h3>Longchamp Park</h3>
                     </div> 
-                </div>
+                </a>
 
             </div>
         </section>
