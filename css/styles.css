@@ -1,4 +1,4 @@
-
+/* After validation */
 body{
 	font-family: 'Raleway', sans-serif;
     margin-top: 0px;
@@ -7,6 +7,7 @@ body{
 }
 h3{
     font-size: 14px;
+    margin: 0;
 }
 
 a{
@@ -483,6 +484,7 @@ border-width: .05em;
     width: 100%;
     height: 275px;
     border-radius: 5% 5% 0% 0%;
+    display: block;
     
 }
 
@@ -490,38 +492,43 @@ border-width: .05em;
     width: 100%;
     height: 150px;
     border-radius: 5% 5% 0% 0%;
+    display: block;
 }
 #photoThree{
     width: 100%;
     height: 77px;
     border-radius: 5% 5% 0% 0%;
+    display: block;
 }
 .photoFour{
     width: 100%;
     height: 275px;
     border-radius: 5% 5% 0% 0%;
+    display: block;
 }
 #photoFive{
     width: 100%;
     height: 114px;
     border-radius: 5% 5% 0% 0%;
+    display: block;
 }
 #photoSix{
     width: 100%;
     height: 114px;
     border-radius: 5% 5% 0% 0%;
+    display: block;
 }
 .act{
     border: solid #80808029;
     border-width: medium;
     border-radius: 5%;
     border-top: none;
-    margin-top: none;
-    margin-top: -17px;
+    /* margin-top: -17px; */
     padding-top: 9px;
     margin-bottom: 17px;
     padding-left: 5px;
-    padding-bottom: -17px;
+    /* padding-bottom: -17px; */
+    padding-bottom: 7px;
     
 }
 footer{
@@ -691,10 +698,10 @@ footer{
 }
 /*activities mobile*/
 #actContainer{
-    height: none;
     display: flex;
     flex-direction: column;
     height: 1680px;
+    justify-content: space-between;
 
 }
 .actCard{
@@ -705,9 +712,11 @@ footer{
     margin-left: 4%;
 }
 
-h3{
+/* h3{
     font-size: 18px;
-}
+    margin: 0;
+
+} */
 .photoTall{
     height: 205px;
 }
@@ -797,7 +806,7 @@ footer{
 
     /*activities tablet*/
     #actContainer{
-        height: 280px;
+        height: 285px;
     }
     #actHeader{
         font-size: calc(1em + .3vw);
