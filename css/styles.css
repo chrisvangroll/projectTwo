@@ -31,6 +31,9 @@ a{
     right: 151px;
     top: 30px;
 }
+#logoDiv{
+    margin-left: 12px;
+}
 
 .container{
     max-width: 1200px;
@@ -101,9 +104,11 @@ a{
 
     font-weight: bold;
     font-size: 115%;
+    margin-left: 12px;
 }
 #searchTwo{
     color: grey;
+    margin-left: 12px;
 }
 
 p#search{
@@ -129,7 +134,7 @@ i.fas.fa-map-marker-alt{
     border-radius: .4em 0em 0em .4em;
     height: .85em;
     margin-top: .01em;
-    
+    margin-left: 12px;
 
 } 
 
@@ -137,7 +142,7 @@ i.fas.fa-map-marker-alt{
     display: flex;
     flex-direction: row;
     font-weight: bold;
-    
+    margin-left: 12px;
 }
 #filterlabel{
     height: 1em;
@@ -310,6 +315,7 @@ border-radius: 5em;
 padding: .3em .6em;
 font-size: .7em;
 border-width: .05em;
+margin-left: 12px;
 }
 
 #accomodations{
