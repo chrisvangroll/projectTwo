@@ -168,6 +168,7 @@ margin-right: 1.5%;
     margin-right: 1.5%;
     margin-bottom:1.5%;
     order: 1;
+    cursor: pointer;
     }
 
 .fas.fa-money-bill-wave{
@@ -200,6 +201,7 @@ margin-right: 1.5%;
     margin-right: 1.5%;
     margin-bottom:1.5%;
     order: 2;
+    cursor: pointer;
 }
 
 .fas.fa-child{
@@ -231,6 +233,7 @@ margin-right: 1.5%;
     margin-right: 1.5%;
     margin-bottom:1.5%;
     order: 3;
+    cursor: pointer;
 }
 
 .fas.fa-heart{
@@ -254,8 +257,6 @@ margin-right: 1.5%;
     
 }
 
-
-
 #fourthButton{
     position: static;
     border: solid #80808059;
@@ -266,6 +267,7 @@ margin-right: 1.5%;
     margin-right: 1.5%;
     margin-bottom:1.5%;
     order: 4;
+    cursor: pointer;
 }
 
 .fas.fa-dog{
@@ -342,6 +344,7 @@ margin-left: 12px;
 #mostPop{
     margin-top: 14px;
     margin-left: 2%;
+    font-size: calc(1em + .3vw);
 }
 
 .fas.fa-chart-line{
@@ -458,10 +461,11 @@ margin-left: 12px;
     border-radius: 5%;
 }
 .accomPhotos{
-    width:96%;
+    width:100%;
     height: 100%;
-    margin: 2%;
     border-radius: 5% 5% 0 0;
+    object-fit: cover;
+
 }
 .hotelInfoAccom{
     text-align: left;
@@ -501,6 +505,7 @@ margin-left: 12px;
     height: 275px;
     border-radius: 5% 5% 0% 0%;
     display: block;
+    object-fit: cover;
     
 }
 
@@ -509,55 +514,61 @@ margin-left: 12px;
     height: 150px;
     border-radius: 5% 5% 0% 0%;
     display: block;
+    object-fit: cover;
 }
 #photoThree{
     width: 100%;
     height: 77px;
     border-radius: 5% 5% 0% 0%;
     display: block;
+    object-fit: cover;
 }
 .photoFour{
     width: 100%;
     height: 275px;
     border-radius: 5% 5% 0% 0%;
     display: block;
+    object-fit: cover;
 }
+
 #photoFive{
     width: 100%;
     height: 114px;
     border-radius: 5% 5% 0% 0%;
     display: block;
+    object-fit: cover;
 }
+
 #photoSix{
     width: 100%;
     height: 114px;
     border-radius: 5% 5% 0% 0%;
     display: block;
+    object-fit: cover;
 }
+
 .act{
-    border: solid #80808029;
-    border-width: medium;
     border-radius: 5%;
-    border-top: none;
-    /* margin-top: -17px; */
     padding-top: 9px;
     margin-bottom: 17px;
     padding-left: 5px;
-    /* padding-bottom: -17px; */
     padding-bottom: 7px;
-    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 footer{
     background-color:  rgba(203, 208, 212, 0.65);
     display: flex;
+    justify-content: center;
     flex-direction: row;
     font-weight: 500;
+    padding: 15px;
 }
+
 .footerPart{
     margin-right: 100px;
     margin-left: 20px;
     font-size: 12px;
-
 }
 
 .boldElement{
@@ -566,14 +577,12 @@ footer{
     margin-bottom: 17px;
 }
 
-
-
-
 @media (max-width: 750px){
     /*card container*/
     .flexcontainer{
         flex-direction: column-reverse;
     }
+
     /*filter Container*/
     #filterContainer{
         flex-direction: row;
@@ -581,6 +590,7 @@ footer{
         height: 10em;
         width: 15em;
     }
+
     #filterlabel{
         width: 200%;
     }
@@ -592,9 +602,11 @@ footer{
 #logoDiv{
     display: block;
 }
+
 #logo{
     display: inline-block;
 }
+
   #acomDiv{
       display:inline-block;
       position: static;
@@ -605,16 +617,12 @@ footer{
       margin: 15px 0px;
   }
   
-  
-
   #acomDiv:hover{
-    border-bottom: outset #0065FC;
-    
+    border-bottom: outset #0065FC;   
 }
 
 #actDiv:hover{
-    border-bottom: outset #0065FC;
-    
+    border-bottom: outset #0065FC; 
 }
 
 #accomodationsBar:hover{
@@ -624,8 +632,6 @@ footer{
 #accomodationsBar:active{
     border-top: none;
 }
-
-
 
 #actDiv{
     display: inline-block;
@@ -646,13 +652,6 @@ footer{
     border-top: none;
 }
 
-/* .results{
-    font-size: 1em;
-}
-.resultsOne{
-    
-} */
-
 /*Most Popular Cards-mobile*/
 #mostPopular{
     width: 100%;
@@ -661,6 +660,7 @@ footer{
 #mostPop{
     margin-top: 25px;
 }
+
  #mostPopHeader{
     font-size: calc(1.3em + 1.3vw);
 } 
@@ -683,15 +683,16 @@ footer{
     margin-left: 4%;
     
 }
+
 #accomContainer{
     display: flex;
     flex-direction: column;
     margin-bottom: -40px;
 }
+
 .accomCard{
     width: 96%;
-    border: solid #80808012;
-
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .divPhotoAccom{
@@ -714,39 +715,40 @@ footer{
     font-size: 18px;
     margin-left: 12px;
 }
+
 /*activities mobile*/
 #actContainer{
     display: flex;
     flex-direction: column;
     height: 1680px;
     justify-content: space-between;
-
 }
+
 .actCard{
     width: 96%;
 }
+
 #actHeader{
     font-size: calc(1.3em + 1.3vw);
     margin-left: 4%;
 }
 
-/* h3{
-    font-size: 18px;
-    margin: 0;
-
-} */
 .photoTall{
     height: 205px;
 }
+
 #photoTwo{
     height: 205px;
 }
+
 #photoThree{
     height: 205px;
 }
+
 .photoFour{
     height: 205px;
 }
+
 #photoFive{
     height: 205px;
 }
@@ -754,15 +756,16 @@ footer{
 #photoSix{
     height: 205px;
 }
+
 footer{
     display: flex;
     flex-direction: column;
 }
+
 .footerPart{
     margin-right: 100px;
     margin-left: 27px;
     font-size: 14px;
-
 }
 
 .boldElement{
@@ -777,15 +780,19 @@ footer{
     body{
         font-size: .9em;
     }
+
     #accomodations{
         width: 70%;
     }
+
     #mostPopular{
         width: 35%;
     }
+
      #mostPopHeader{
         font-size: calc(1em + .3vw);
     } 
+
     .mostPopularPhotos{
         height: 105px;
     }
@@ -798,9 +805,9 @@ footer{
   
     
     #accomHeader{
-        font-size: calc(1em + .3vw);
-        
+        font-size: calc(1em + .3vw);  
     }
+
     input#searchField{
         height: 2.1em;
     }
@@ -826,25 +833,31 @@ footer{
     #actContainer{
         height: 285px;
     }
+
     #actHeader{
         font-size: calc(1em + .3vw);
         margin-left: 20px;
     }
+
     h3{
         font-size: 11px;
     }
+    
     .photoTall{
         height: 225px;
     }
     #photoTwo{
         height: 121px;
     }
+
     #photoThree{
         height: 54px;
     }
+
     .photoFour{
         height: 226px;
     }
+
     #photoFive{
         height: 89px;
     }
@@ -852,11 +865,11 @@ footer{
 #photoSix{
         height: 89px;
     }
+
 .footerPart{
     margin-right: 100px;
     margin-left: 20px;
     font-size: 9px;
-    
 }
 
 .boldElement{
